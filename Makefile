@@ -66,4 +66,4 @@ fclean: clean
 re: fclean all
 
 # informs MakeFile that whenever these rules are called they need to be executed
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus

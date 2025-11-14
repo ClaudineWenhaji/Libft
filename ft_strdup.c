@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 19:03:34 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 14:51:04 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 12:51:27 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strdup(const char *s)
 {
-	char	*copy;
+	char		*copy;
 	size_t		i;
 	size_t		len;
 

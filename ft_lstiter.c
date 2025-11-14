@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:37:52 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:44:56 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 10:32:28 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 	{
 		while (lst)
 		{
-			f(lst->ontent);
+			f(lst->content);
 			lst = lst->next;
 		}
 	}

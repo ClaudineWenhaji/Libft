@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 10:37:10 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 11:08:59 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 13:05:43 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 t_list	*ft_lstnew(void *content)
 {
-	tlist	*new;
+	t_list	*new;
 
 	new = malloc(sizeof(t_list));
 	if (!new)
 		return (NULL);
 	new->content = content;
-	new->content = NULL;
+	new->next = NULL;
 	return (new);
 }
 /*

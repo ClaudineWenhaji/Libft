@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 13:58:44 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 14:09:09 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 12:49:14 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,9 @@
 # include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
+# include <stdint.h>
 
-typedef struct s_tlist
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
@@ -26,7 +27,7 @@ typedef struct s_tlist
 
 int		ft_atoi(const char *nptr);
 void	ft_bzero(void *s, size_t n);
-void	*calloc(size_t nmemb, size_t size);
+void	*ft_calloc(size_t nmemb, size_t size);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);
