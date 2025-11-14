@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:13:44 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 18:32:45 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:11:48 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ static int	count_words(const char *s, char c)
 
 void	free_all(char **str, int j)
 {
-	j--;
 	while (j >= 0)
 		free(str[j--]);
 	free(str);
@@ -46,24 +45,25 @@ void	free_all(char **str, int j)
 static char	*word_splitter(const char *s, char c, char **str, int j)
 {
 	char	*word;
+	int		len;
 	int		i;
 
-	i = 0;
-	while (s[i] && s[i] != c)
-		i++;
-	word = malloc(sizeof(char) * (i + 1));
+	len = 0;
+	while (s[len] && s[len] != c)
+		len++;
+	word = malloc(sizeof(char) * (len + 1));
 	if (!word)
 	{
-		free_all(str, j);
+		free_all(str, j - 1);
 		return (NULL);
 	}
 	i = 0;
-	while (s[i] && s[i] != c)
+	while (i < len)
 	{
 		word[i] = s[i];
 		i++;
 	}
-	word[i] = '\0';
+	word[len] = '\0';
 	return (word);
 }
 
@@ -76,13 +76,15 @@ char	**ft_split(char const *s, char c)
 	i = 0;
 	j = 0;
 	words = (char **)malloc(sizeof(char *) * (count_words(s, c) + 1));
-	if (!words || !s)
+	if (!s || !words)
 		return (NULL);
 	while (s[i])
 	{
 		if (s[i] != c)
 		{
 			words[j] = word_splitter(&s[i], c, words, j);
+			if (!words[j])
+				return (NULL);
 			while (s[i] && s[i] != c)
 				i++;
 			j++;
