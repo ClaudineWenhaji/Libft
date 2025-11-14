@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 16:17:33 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/11 16:25:06 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:54:57 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,11 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	else
 		return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%d\n", ft_strncmp("ABC", "abc", 2));
+	return (0);
+}*/

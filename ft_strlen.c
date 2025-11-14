@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:55:12 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:56:27 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:55:11 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,11 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%zu\n", ft_strlen("Bonjour!"));
+	return (0);
+}*/

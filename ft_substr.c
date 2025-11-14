@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:32:50 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:50:18 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 18:12:35 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[len] = '\0';
 	return (substr);
 }
+/*
+int	main(void)
+{
+	sub = ft_substr("Bonjour!", 3, 5);
+        printf("Substring: %s\n", sub);
+        free(sub);
+	return (0);
+}*/

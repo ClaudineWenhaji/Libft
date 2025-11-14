@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:25:58 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:26:30 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:39:58 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,3 +17,11 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
+/*
+#include "libft.h"
+
+int	main(void)
+{
+	printf("%d\n", ft_tolower(65));
+	return (0);
+}*/

@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 19:03:34 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 12:51:27 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 18:03:15 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,15 @@ char	*ft_strdup(const char *s)
 	copy[i] = '\0';
 	return (copy);
 }
+/*
+#include <stdio.h>
+
+int     main(void)
+{
+	char *original = "Bonjour, tout le monde";
+        char *dupl = ft_strdup(original);
+	printf("Original: %s\n", original);
+        printf("Duplicate: %s\n", dupl);
+        free(dupl);
+	return (0);
+}*/

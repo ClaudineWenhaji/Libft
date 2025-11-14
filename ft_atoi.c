@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:41:46 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:42:06 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 15:11:52 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,13 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * sum);
 }
+/*
+#include "libft.h"
+
+int	main(void)
+{
+	printf("ft_atoi(  -123jour) is: %d\n", ft_atoi("  -123jour"));
+	printf("ft_atoi(  ---abc123jour) is: %d\n", ft_atoi("  ---abc123jour"));
+	printf("ft_atoi(  123jour) is: %d\n", ft_atoi("  123jour"));
+	return (0);
+}*/

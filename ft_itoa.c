@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:35:22 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:47:27 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:45:04 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,3 +64,17 @@ char	*ft_itoa(int n)
 	str[i--] = '\0';
 	return (mount_str(str, l, i));
 }
+/*
+#include<stdio.h>
+
+int	main(void)
+{
+	char *str = ft_itoa(-2147483648);
+        char *str1 = ft_itoa(-2147);
+        char *str2 = ft_itoa(0);
+
+	printf("ft_itoa(-2147483648): %s\n", str);
+        printf("ft_itoa(-2147): %s\n", str1);
+        printf("ft_itoa(0): %s\n", str2);
+	return (0);
+}*/

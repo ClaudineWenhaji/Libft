@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:02:40 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:43:49 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:30:45 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ t_list	*ft_lstlast(t_list *lst)
 	return (lst);
 }
 /*
-#include "libft.h"
 #include <stdio.h>
 #include <stdlib.h>
 

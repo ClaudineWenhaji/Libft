@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:57:19 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/11 16:52:39 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:58:15 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,21 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[dest_len] = '\0';
 	return (result);
 }
+/*
+#include <stdio.h>
+
+size_t  ft_strlen(const char *s)
+{
+        size_t  i;
+
+        i = 0;
+        while (s[i])
+                i++;
+        return (i);
+}
+
+int	main(void)
+{
+	printf("%zu\n", ft_strlcat("ABC", "abc", 0));
+	return (0);
+}*/

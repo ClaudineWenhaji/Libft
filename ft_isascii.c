@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:54:02 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:54:43 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:33:38 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,3 +14,11 @@ int	ft_isascii(int c)
 {
 	return (c >= 0 && c <= 127);
 }
+/*
+#include "libft.h"
+
+int	main(void)
+{
+	printf("%d\n", ft_isascii(4));
+	return (0;)
+}*/

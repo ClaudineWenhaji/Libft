@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 10:57:29 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:43:20 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:31:27 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ int	ft_lstsize(t_list *lst)
 	return (counter);
 }
 /*
-#include "libft.h"
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:25:23 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:25:30 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:37:00 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,3 +14,11 @@ int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 126);
 }
+/*
+#include "libft.h"
+
+int	main(void)
+{
+	printf("%d\n", ft_isprint(126));
+	return (0);
+}*/

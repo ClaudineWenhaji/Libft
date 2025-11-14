@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:32:00 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:32:09 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:34:43 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,18 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char ptr3[] = "Hello World!";
+	char *p = ft_memchr(ptr3, 'l', 5);
+
+	if (p)
+                printf("ft_memchr: found 'l' at index: %ld\n", p - ptr3);
+        else
+                printf("fft_memchr: 'l' not found in first 5 characters\n");
+
+	return (0);
+}*/

@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:28:25 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 14:31:43 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:29:02 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,39 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	}
 	*lst = NULL;
 }
+/*
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void del(void *content)
+{
+    free(content);
+}
+
+int	main(void)
+{
+	t_list *head;
+
+    // Create a small list with 2 nodes
+    	head = ft_lstnew(strdup("First"));
+    	head->next = ft_lstnew(strdup("Second"));
+
+    // Print the list
+    	printf("Before clearing:\n");
+    	t_list *tmp = head;
+    	while (tmp)
+    	{
+        	printf("%s\n", (char *)tmp->content);
+        	tmp = tmp->next;
+    	}
+
+    // Clear the list
+    	ft_lstclear(&head, del);
+
+    // Confirm the list is cleared
+    	if (!head)
+        	printf("List cleared successfully.\n");
+
+    	return 0;	
+}*/

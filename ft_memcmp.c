@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 16:38:04 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:46:07 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:38:39 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char ptr[] = "Hello World!";
+        char ptr1[] = "HeLLo World!";
+
+	printf("%d\n", ft_memcmp(ptr, ptr1, 5));
+	return (0);
+}*/

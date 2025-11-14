@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:30:19 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:30:51 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 18:34:50 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,12 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}	
 	return (NULL);
 }
+/*
+#include <stdio.h>
+
+int     main(void)
+{
+        char *original = "Bonjour, tout le monde";
+        printf("character found: %s\n", ft_strnstr(original, "tou", 13));
+        return (0);
+}*/

@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:23:16 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:23:52 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:35:39 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,3 +17,11 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
+/*
+#include "libft.h"
+
+int	main(void)
+{
+	printf("%d\n", ft_isdigit(97));
+	return (0);
+}*/

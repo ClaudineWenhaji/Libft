@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 15:33:38 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/13 13:57:37 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 17:47:47 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,9 @@ int	main(void)
 	printf("Original buffer1: %s\n", buffer1);
 	printf("Original buffer2: %s\n", buffer2);
 
-	printf("ft_memmove: %s\n", ft_memmove(buffer1 + 2, buffer2, 5));
-//	printf("ft_memmove: %s\n", ft_memmove(buffer1 + 4, buffer2, 4));
+	ft_memmove(buffer1 + 2, buffer2, 5);
+	printf("buffer1 after ft_memmove: %s\n", buffer1);
+	ft_memmove(buffer1 + 4, buffer2, 4);
+	printf("buffer1 after ft_memmove: %s\n", buffer1);
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:10:18 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 13:14:05 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:54:37 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,15 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	last->next = new;
 }
 /*
+t_list  *ft_lstlast(t_list *lst)
+{
+        if (!lst)
+                return (NULL);
+        while (lst->next)
+                lst = lst->next;
+        return (lst);
+}
+
 int	main(void)
 {
 	t_list *head = malloc(sizeof(t_list));
@@ -43,9 +52,9 @@ int	main(void)
 	new->next = NULL;
 
 	ft_lstadd_back(&head, new);
-	printf("%s\n", head->content);
-	printf("%s\n", head->next->content);
-	printf("%s\n", head->next->next->content);
+	printf("%s\n", (char *)head->content);
+	printf("%s\n", (char *)head->next->content);
+	printf("%s\n", (char *)head->next->next->content);
 
      return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 10:44:06 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 12:55:21 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:56:57 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	*lst = new;
 }
 /*
-#include "libft.h"
 #include <stdio.h>
 #include <stdlib.h>
 

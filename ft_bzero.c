@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:51:42 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:53:25 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 15:23:44 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,15 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+/*
+int	main(void)
+{
+	char ptr[] = "Hello World!";
+
+	ft_bzero(ptr, 4);
+//	printf("%s\n", ptr);
+
+	for (int i = 0; i < 12; i++)
+    	printf("%d ", ptr[i]);
+	return (0);
+}*/

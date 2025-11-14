@@ -6,7 +6,7 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:31:21 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/10 18:31:33 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/14 18:06:53 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,12 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (last);
 }
+/*
+#include <stdio.h>
+
+int     main(void)
+{
+        char *original = "Bonjour, tout le monde";
+        printf("character found: %s\n", ft_strrchr(original, 't'));
+        return (0);
+}*/
