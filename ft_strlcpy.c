@@ -6,9 +6,15 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 19:08:41 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 18:01:04 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 12:55:55 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// safer alternative to strcpy. 
+// Instead of blindly copying a string into a buffer 
+// (which can overflow), 
+// strlcpy copies at most size - 1 characters 
+// and always null-terminates the destination (if size > 0).
 
 #include "libft.h"
 

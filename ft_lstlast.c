@@ -6,9 +6,11 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:02:40 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:30:45 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 16:06:32 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Returns the last node of the list
 
 #include "libft.h"
 

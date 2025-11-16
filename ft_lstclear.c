@@ -6,9 +6,13 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:28:25 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:29:02 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 16:07:59 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Deletes and frees the given node and all its
+// successors, using the function ’del’ and free(3).
+// Finally, set the pointer to the list to NULL
 
 #include "libft.h"
 

@@ -6,9 +6,11 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:10:18 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 16:54:37 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 16:07:08 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Adds the node ’new’ at the end of the list
 
 #include "libft.h"
 

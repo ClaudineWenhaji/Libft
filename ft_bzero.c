@@ -6,9 +6,13 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:51:42 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 15:23:44 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 11:31:56 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// sets a block of memory to zero
+// sets n bytes of a memory region to 0
+// It is basically the ancestor of ft_memset(ptr, 0, size);
 
 #include "libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:27:43 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 16:30:19 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 11:24:15 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// calloc stands for "contiguous allocation"
+// Allocates memory for nmemb elements, each of size size
+// Sets all allocated bytes to 0
 
 #include "libft.h"
 

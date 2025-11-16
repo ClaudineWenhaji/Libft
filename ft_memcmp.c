@@ -6,9 +6,12 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 16:38:04 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:38:39 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 11:43:49 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// used to compare two blocks of memory byte by byte
+// It does not care about null-terminators ('\0'), unlike string functions
 
 #include "libft.h"
 

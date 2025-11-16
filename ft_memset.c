@@ -6,9 +6,14 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 16:28:36 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:50:41 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 11:29:07 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// writes the same byte value into every byte of a memory region
+// s: pointer to the memory to fill
+// c: the byte value to set (converted to unsigned char)
+// n: number of bytes to fill
 
 #include "libft.h"
 

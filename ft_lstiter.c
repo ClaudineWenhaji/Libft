@@ -6,9 +6,12 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:37:52 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:30:24 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 16:09:45 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Iterates through the list ’lst’ and applies the
+// function ’f’ to the content of each node
 
 #include "libft.h"
 
@@ -28,7 +31,9 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 #include <stdlib.h>
 
 void	print_content(void *content)
-		printf("%s\n", (char *)content);
+{
+	printf("%s\n", (char *)content);
+}
 
 int	main(void)
 {

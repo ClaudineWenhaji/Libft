@@ -6,9 +6,11 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 10:57:29 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:31:27 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 16:06:01 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Counts the number of nodes in the list
 
 #include "libft.h"
 

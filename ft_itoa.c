@@ -6,13 +6,17 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:35:22 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 16:45:04 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 11:18:32 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Allocates memory (using malloc(3)) and returns
+// a string representing the integer received as an
+// argument. Negative numbers must be handled
+
 #include "libft.h"
 
-static int	decimal_places(long n)
+int	decimal_places(long n)
 {
 	int	i;
 
@@ -30,7 +34,7 @@ static int	decimal_places(long n)
 	return (i);
 }
 
-static char	*mount_str(char *str, long l, int i)
+char	*mount_str(char *str, long l, int i)
 {
 	if (l == 0)
 	{

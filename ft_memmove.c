@@ -6,9 +6,19 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 15:33:38 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:47:47 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 11:41:50 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// used to copy memory safely, even when the source and destination overlap
+// copies n bytes from a source memory region to a destination memory region
+// handles overlapping memory correctly by copying the bytes 
+// in the right direction
+// if dest < src → copy forward
+// if dest > src → copy backward
+// memmove = safe memory copy
+// memcpy = fast but unsafe if overlapping
+// Use memmove when not 100% sure whether the memory blocks overlap.
 
 #include "libft.h"
 

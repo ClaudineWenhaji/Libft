@@ -6,9 +6,19 @@
 /*   By: clwenhaj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 18:57:19 by clwenhaj          #+#    #+#             */
-/*   Updated: 2025/11/14 17:58:15 by clwenhaj         ###   ########.fr       */
+/*   Updated: 2025/11/16 12:54:06 by clwenhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// safer string concatenation function than strcat. 
+// It appends one string to another 
+// but always respects the buffer size to avoid overflows
+// Returns the total length of the string it tried to create:
+// strlen(dest) + strlen(src)
+// Guarantees null-termination if size > 0.
+// Appends at most size - strlen(dest) - 1 characters from src.
+// The return value lets you detect truncation:
+// If return ≥ size, truncation occurred
 
 #include "libft.h"
 
