@@ -1,4 +1,4 @@
-# Libft
+# libft
 My own library of useful C programming function.
 ## Summary
 * Makefile
